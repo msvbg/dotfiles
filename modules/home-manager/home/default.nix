@@ -14,10 +14,10 @@
     develop = "nix develop";
     edit = "nix edit";
     f = "${self.packages.${pkgs.system}.deep-find}/bin/deep-find";
-    frg = "${self.packages.${pkgs.system}.deep-find}/bin/ripgrep-find";
+    frg = "${self.packages.${pkgs.system}.ripgrep-find}/bin/ripgrep-find";
     g = "git";
     gcm = "git checkout main 2>/dev/null || git checkout master";
-    gco = "git commit --patch";
+    gco = "EDITOR=nvim git commit --patch";
     gd = "git diff";
     gdc = "git diff --cached";
     gone = "git fetch -p && git for-each-ref --format '%(refname:short) %(upstream:track)' | awk '$2 == \"[gone]\" {print $1}' | xargs -r git branch -D";
@@ -32,7 +32,6 @@
     run = "nix run";
     switch-home = "home-manager switch --flake ~/.config/nix";
     update = "nix flake update --commit-lock-file";
-    "..." = "../..";
   };
 
   home.packages = with pkgs; [
