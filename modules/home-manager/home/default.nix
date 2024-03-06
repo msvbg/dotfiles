@@ -18,6 +18,7 @@
     l = "eza -la";
     ls = "eza";
     run = "nix run";
+    edit-nix = "code ~/.config/nix";
     switch-home = "home-manager switch --flake ~/.config/nix";
     update = "nix flake update --commit-lock-file";
   };
