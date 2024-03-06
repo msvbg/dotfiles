@@ -23,28 +23,30 @@
     update = "nix flake update --commit-lock-file";
   };
 
-  home.packages = with pkgs; [
-    bash
-    bat
-    curl
-    difftastic
-    direnv
-    eza
-    fd
-    home-manager
-    iterm2
-    jq
-    just
-    man
-    mcfly
-    neovim
-    nil
-    nixpkgs-fmt
-    pkg-config
-    ripgrep
-    rustup
-    starship
-  ];
+  home.packages =
+    with pkgs; [
+      bash
+      bat
+      curl
+      difftastic
+      direnv
+      eza
+      fd
+      home-manager
+      iterm2
+      jq
+      just
+      man
+      mcfly
+      neovim
+      nil
+      nixpkgs-fmt
+      pkg-config
+      ripgrep
+      rustup
+      starship
+      tokei
+    ];
 
   programs = {
     gpg.enable = true;
