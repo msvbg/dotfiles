@@ -16,10 +16,6 @@
       source "$HOME/.zinit/bin/zi.zsh"
     '';
     initExtra = ''
-      # Theme
-      zinit ice depth=1; zinit light romkatv/powerlevel10k
-      [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
       # Replace zsh's default completion selection menu with fzf
       zinit light Aloxaf/fzf-tab
 

@@ -42,10 +42,15 @@
     pkg-config
     ripgrep
     rustup
+    starship
   ];
 
   programs = {
     gpg.enable = true;
+    starship = {
+      enable = true;
+      enableZshIntegration = true;
+    };
     fzf = {
       enable = true;
       enableBashIntegration = true;

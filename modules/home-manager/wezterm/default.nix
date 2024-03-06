@@ -10,6 +10,9 @@
         config = wezterm.config_builder()
       end
 
+      config.color_scheme = 'Black Metal (base16)'
+      config.font_size = 14.0
+
       config.keys = {
         {
           key = 'k',
