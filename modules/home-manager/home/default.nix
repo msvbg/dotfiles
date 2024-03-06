@@ -37,12 +37,15 @@
   home.packages = with pkgs; [
     bat
     curl
+    direnv
     eza
     fd
     iterm2
     jq
     just
+    lld
     mcfly
+    pkg-config
     rustup
   ];
 
