@@ -38,6 +38,7 @@
     mcfly
     neovim
     nil
+    nixpkgs-fmt
     pkg-config
     ripgrep
     rustup
