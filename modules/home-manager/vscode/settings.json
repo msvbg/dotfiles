@@ -2,7 +2,20 @@
   "[nix]": {
     "nix.enableLanguageServer": true,
     "editor.defaultFormatter": "jnoortheen.nix-ide",
-    "nix.serverPath": "nil"
+    "nix.serverPath": "nil",
+    "nix.serverSettings": {
+      "nil": {
+        "formatting": {
+          "command": ["nixpkgs-fmt"]
+        },
+        "nix": {
+          "flake": {
+            "autoArchive": true,
+            "autoEvalInputs": true
+          }
+        }
+      }
+    }
   },
   "[toml]": {
     "editor.defaultFormatter": "tamasfe.even-better-toml"
@@ -12,5 +25,8 @@
   },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  }
+  },
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "explorer.confirmDelete": false
 }
