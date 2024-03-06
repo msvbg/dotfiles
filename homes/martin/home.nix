@@ -1,6 +1,10 @@
 { config, pkgs, lib, self, ... }: {
   imports = with self.homeModules; [
+    gh
+    git
     vscode
+    wezterm
+    zsh
   ];
 
   home.username = "martin";
