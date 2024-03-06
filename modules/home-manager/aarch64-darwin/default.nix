@@ -6,6 +6,7 @@
   };
 
   home.packages = with pkgs; [
+    lld # Useful for fast Rust linking on macOS
   ];
 
   home.sessionVariables = {
