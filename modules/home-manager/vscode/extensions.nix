@@ -3,7 +3,7 @@ let
   packagedExtensions = with pkgs.vscode-extensions; [
     github.copilot
     vscodevim.vim
-    bbenoist.nix
+    jnoortheen.nix-ide
     tamasfe.even-better-toml
     rust-lang.rust-analyzer-nightly # from fenix overlay
   ];
