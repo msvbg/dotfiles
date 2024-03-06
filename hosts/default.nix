@@ -6,6 +6,7 @@ let
       experimental-features = [ "nix-command" "flakes" ];
       cores = 1;
       max-jobs = 1;
+      warn-dirty = false;
     };
 
     # Automatically deduplicate files
