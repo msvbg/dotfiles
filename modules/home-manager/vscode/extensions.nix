@@ -6,6 +6,7 @@ let
     jnoortheen.nix-ide
     tamasfe.even-better-toml
     rust-lang.rust-analyzer-nightly # from fenix overlay
+    skellock.just
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
