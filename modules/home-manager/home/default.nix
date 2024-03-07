@@ -46,6 +46,7 @@
       rustup
       starship
       tokei
+      tracy
     ];
 
   programs = {
