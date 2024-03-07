@@ -31,5 +31,6 @@
   "editor.inlayHints.enabled": "offUnlessPressed",
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
 }
