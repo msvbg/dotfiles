@@ -30,6 +30,7 @@
       curl
       difftastic
       direnv
+      deno
       eza
       fd
       home-manager
