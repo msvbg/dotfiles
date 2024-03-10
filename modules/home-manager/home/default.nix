@@ -46,7 +46,7 @@
       ripgrep
       rustup
       starship
-      tokei
+      cloc
       tracy
     ];
 
