@@ -33,6 +33,7 @@
       deno
       eza
       fd
+      ffmpeg
       home-manager
       iterm2
       jq
@@ -48,6 +49,7 @@
       starship
       cloc
       tracy
+      zola
     ];
 
   programs = {
