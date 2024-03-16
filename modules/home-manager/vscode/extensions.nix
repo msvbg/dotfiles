@@ -7,6 +7,7 @@ let
     tamasfe.even-better-toml
     rust-lang.rust-analyzer-nightly # from fenix overlay
     skellock.just
+    stkb.rewrap
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
