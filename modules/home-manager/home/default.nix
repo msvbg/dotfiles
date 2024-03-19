@@ -27,6 +27,8 @@
     with pkgs; [
       bash
       bat
+      clang
+      cmake
       curl
       difftastic
       direnv
@@ -35,9 +37,13 @@
       fd
       ffmpeg
       home-manager
+      libiconv
       iterm2
       jq
       just
+      llvm
+      libllvm
+      libllvm.dev
       man
       mcfly
       neovim

@@ -2,12 +2,12 @@
 let
   packagedExtensions = with pkgs.vscode-extensions; [
     github.copilot
-    vscodevim.vim
     jnoortheen.nix-ide
-    tamasfe.even-better-toml
     rust-lang.rust-analyzer-nightly # from fenix overlay
     skellock.just
     stkb.rewrap
+    tamasfe.even-better-toml
+    vscodevim.vim
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
@@ -21,6 +21,12 @@ let
       publisher = "polymeilex";
       version = "0.1.17";
       sha256 = "sha256-vGqvVrr3wNG6HOJxOnJEohdrzlBYspysTLQvWuP0QIw=";
+    }
+    {
+      name = "cpptools";
+      publisher = "ms-vscode";
+      version = "1.19.8";
+      sha256 = "sha256-TyjsIinjU+SJMRyismfuQ1zpCI+vCZRZpUokw91tmq8=";
     }
   ]);
 in
