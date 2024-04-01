@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Ayu Dark Bordered",
   "[nix]": {
     "nix.enableLanguageServer": true,
     "editor.defaultFormatter": "jnoortheen.nix-ide",
