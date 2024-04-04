@@ -4,6 +4,7 @@ let
     github.copilot
     vscodevim.vim
     jnoortheen.nix-ide
+    ms-python.python
     tamasfe.even-better-toml
     rust-lang.rust-analyzer-nightly # from fenix overlay
     skellock.just
