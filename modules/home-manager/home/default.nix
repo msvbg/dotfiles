@@ -47,6 +47,7 @@
       ripgrep
       rustup
       starship
+      tmux
       cloc
       tracy
       zola
