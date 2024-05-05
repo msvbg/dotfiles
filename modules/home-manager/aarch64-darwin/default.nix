@@ -6,6 +6,7 @@
   };
 
   home.packages = with pkgs; [
+    coreutils
     lld # Useful for fast Rust linking on macOS
   ];
 
