@@ -8,7 +8,7 @@
     nix-darwin = { url = "github:LnL7/nix-darwin"; inputs.nixpkgs.follows = "nixpkgs"; };
     nix-index-database = { url = "github:Mic92/nix-index-database"; inputs.nixpkgs.follows = "nixpkgs"; };
     home-manager = { url = "github:nix-community/home-manager/release-23.11"; inputs.nixpkgs.follows = "nixpkgs"; };
-    fenix = { url = "github:nix-community/fenix/761431323e30846bae160e15682cfa687c200606"; inputs.nixpkgs.follows = "nixpkgs"; };
+    fenix = { url = "github:nix-community/fenix/f7737feef42fa8abe70de20b9a13b845a113cfeb"; inputs.nixpkgs.follows = "nixpkgs"; };
   };
 
   outputs = { self, nixpkgs, flake-utils, ... }@inputs:
