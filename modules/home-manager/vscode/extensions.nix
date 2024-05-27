@@ -9,6 +9,7 @@ let
     rust-lang.rust-analyzer-nightly # from fenix overlay
     skellock.just
     stkb.rewrap
+    a5huynh.vscode-ron
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
