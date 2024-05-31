@@ -50,6 +50,7 @@
       tmux
       cloc
       tracy
+      zellij
       zola
     ];
 
