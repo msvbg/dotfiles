@@ -44,6 +44,7 @@
       nil
       nixpkgs-fmt
       pkg-config
+      pngcrush
       ripgrep
       rustup
       starship
