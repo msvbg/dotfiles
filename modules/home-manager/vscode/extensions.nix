@@ -30,6 +30,12 @@ let
       version = "1.0.5";
       sha256 = "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=";
     }
+    {
+      name = "bevy-diagnostic-explorer";
+      publisher = "xyzw-io";
+      version = "0.0.1";
+      sha256 = "sha256-mauDeKRroyo4EV9sTvz68LnS64/pb4B4ezWHX9SJJvE=";
+    }
   ]);
 in
 marketplaceExtensions ++ packagedExtensions
