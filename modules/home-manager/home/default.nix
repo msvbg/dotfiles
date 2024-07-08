@@ -27,6 +27,7 @@
     with pkgs; [
       bash
       bat
+      cmake
       curl
       difftastic
       direnv

@@ -10,13 +10,14 @@ let
     skellock.just
     stkb.rewrap
     a5huynh.vscode-ron
+    vadimcn.vscode-lldb
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
       name = "git-line-blame";
       publisher = "carlthome";
-      version = "0.6.1";
-      sha256 = "sha256-Jh4DmLEoCsA0lY1ad3jMQRhWXEoXmggAKW8Z9QGYJjY=";
+      version = "0.9.0";
+      sha256 = "sha256-Y3DCkPCbvuLxad2Oz82dIYgPIBLhE1FR8Nb9kw7jEpg=";
     }
     {
       name = "wgsl";
@@ -29,6 +30,12 @@ let
       publisher = "teabyii";
       version = "1.0.5";
       sha256 = "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=";
+    }
+    {
+      name = "serenade";
+      publisher = "serenade";
+      version = "1.5.3";
+      sha256 = "sha256-xbsCe7aqL3M66pTYmt4f5t+5WPto3uANZ1Vz/3RiMio=";
     }
   ]);
 in
