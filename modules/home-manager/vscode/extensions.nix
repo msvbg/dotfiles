@@ -1,7 +1,6 @@
 { pkgs, ... }:
 let
   packagedExtensions = with pkgs.vscode-extensions; [
-    github.copilot
     vscodevim.vim
     jnoortheen.nix-ide
     ms-python.python
@@ -32,10 +31,10 @@ let
       sha256 = "sha256-+IFqgWliKr+qjBLmQlzF44XNbN7Br5a119v9WAnZOu4=";
     }
     {
-      name = "serenade";
-      publisher = "serenade";
-      version = "1.5.3";
-      sha256 = "sha256-xbsCe7aqL3M66pTYmt4f5t+5WPto3uANZ1Vz/3RiMio=";
+      name = "supermaven";
+      publisher = "supermaven";
+      version = "1.0.9";
+      sha256 = "sha256-2cv6dEn5af3VNAHkXAx9Yr2eqeuLh5Stv/JXLWeiRj4=";
     }
   ]);
 in
