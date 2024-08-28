@@ -2,6 +2,7 @@
   imports = with self.homeModules; [
     gh
     git
+    jujutsu
     vscode
     wezterm
     zsh
