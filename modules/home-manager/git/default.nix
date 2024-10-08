@@ -10,6 +10,9 @@
       "*~"
       "*.swp"
     ];
+    lfs = {
+      enable = true;
+    };
     extraConfig = {
       branch.sort = "-committerdate";
       core.editor = "vim";
