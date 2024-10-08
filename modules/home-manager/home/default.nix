@@ -35,6 +35,7 @@
       eza
       fd
       ffmpeg
+      git-lfs
       home-manager
       iterm2
       jq
