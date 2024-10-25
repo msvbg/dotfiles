@@ -10,8 +10,15 @@ let
     stkb.rewrap
     a5huynh.vscode-ron
     vadimcn.vscode-lldb
+    ms-vscode.live-server
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+    {
+      name = "vscode-coverage-gutters";
+      publisher = "ryanluker";
+      version = "2.12.0";
+      sha256 = "sha256-Dkc/Wqc122fV1r6IUyHOtuRdpbWHL3elAhfxHcY6xtM=";
+    }
     {
       name = "git-line-blame";
       publisher = "carlthome";
