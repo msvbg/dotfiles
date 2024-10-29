@@ -14,6 +14,12 @@ let
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
+      name = "wit-idl";
+      publisher = "BytecodeAlliance";
+      version = "0.3.1";
+      sha256 = "sha256-AW+TaVGdXqUxNP0swk6xBNTiFTEn5D2CbF+9LYcTRnU=";
+    }
+    {
       name = "vscode-coverage-gutters";
       publisher = "ryanluker";
       version = "2.12.0";
