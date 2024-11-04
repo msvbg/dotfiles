@@ -16,12 +16,12 @@ let
     ms-dotnettools.vscode-dotnet-runtime
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
-    # {
-    #   name = "vscode-dotnet-runtime";
-    #   publisher = "ms-dotnettools";
-    #   version = "2.2.2";
-    #   sha256 = "sha256-WjwXN/05bHRi7bsrP2+zEVmm6B6eN4iaoKfapbuCrgM=";
-    # }
+    {
+      name = "godot-tools";
+      publisher = "geequlim";
+      version = "2.3.0";
+      sha256 = "sha256-iuSec4PoVxyu1KB2jfCYOd98UrqQjH3q24zOR4VCPgs=";
+    }
     {
       name = "stylua";
       publisher = "JohnnyMorganz";
