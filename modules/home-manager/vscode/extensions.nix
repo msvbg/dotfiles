@@ -11,8 +11,29 @@ let
     a5huynh.vscode-ron
     vadimcn.vscode-lldb
     ms-vscode.live-server
+    ms-dotnettools.csharp
+    ms-dotnettools.csdevkit
+    ms-dotnettools.vscode-dotnet-runtime
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
+    # {
+    #   name = "vscode-dotnet-runtime";
+    #   publisher = "ms-dotnettools";
+    #   version = "2.2.2";
+    #   sha256 = "sha256-WjwXN/05bHRi7bsrP2+zEVmm6B6eN4iaoKfapbuCrgM=";
+    # }
+    {
+      name = "stylua";
+      publisher = "JohnnyMorganz";
+      version = "1.6.3";
+      sha256 = "sha256-lwrA2Y0Ds6rRMk3lAgZmvECYa5q5nd8PJGeQ3GTsp7g=";
+    }
+    {
+      name = "luau-lsp";
+      publisher = "JohnnyMorganz";
+      version = "1.34.0";
+      sha256 = "sha256-mztArAuUMfFMNyMljNfGy5wetOoCS9TzBaVdcyCPmjE=";
+    }
     {
       name = "wit-idl";
       publisher = "BytecodeAlliance";

@@ -32,6 +32,7 @@
       difftastic
       direnv
       deno
+      dotnet-sdk_8
       eza
       fd
       ffmpeg
