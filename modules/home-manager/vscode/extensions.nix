@@ -17,6 +17,12 @@ let
   ];
   marketplaceExtensions = (pkgs.vscode-utils.extensionsFromVscodeMarketplace [
     {
+      name = "vscode-fluent";
+      publisher = "macabeus";
+      version = "1.1.0";
+      sha256 = "sha256-cDo8nH6hFvYNiHuoriDzgZC4xt/vm+yJdLZ1pgggpSA=";
+    }
+    {
       name = "godot-tools";
       publisher = "geequlim";
       version = "2.3.0";
