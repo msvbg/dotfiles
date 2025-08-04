@@ -29,6 +29,7 @@
     bat
     cmake
     claude-code
+    codex-cli
     curl
     difftastic
     direnv
@@ -58,6 +59,7 @@
     tracy
     zellij
     zola
+
   ];
 
   programs = {

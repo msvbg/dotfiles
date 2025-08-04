@@ -18,7 +18,7 @@
         legacyPackages.homeConfigurations = import ./homes (inputs // { inherit system; });
         packages = import ./packages (inputs // { inherit system; });
         devShells.default = let pkgs = nixpkgs.legacyPackages.${system}; in pkgs.mkShell {
-          buildInputs = [ pkgs.home-manager pkgs.nix-index-database ];
+          buildInputs = [ pkgs.home-manager ];
         };
         homeConfigurations = import ./homes (inputs // { inherit system; });
       };
