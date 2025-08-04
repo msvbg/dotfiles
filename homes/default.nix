@@ -6,6 +6,7 @@ let
       inherit system;
       overlays = [
         self.overlays.vscode-unstable
+        self.overlays.claude-code
         self.overlays.fenix
       ];
     };

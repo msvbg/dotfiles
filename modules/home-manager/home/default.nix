@@ -28,6 +28,7 @@
     bash
     bat
     cmake
+    claude-code
     curl
     difftastic
     direnv
