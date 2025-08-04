@@ -1,4 +1,4 @@
-{ home-manager, nixpkgs, nix-index-database, system, self, ... }@inputs:
+{ home-manager, nixpkgs, nixpkgs-unstable, nix-index-database, system, self, ... }@inputs:
 let
   names = builtins.attrNames (builtins.readDir ./.);
   mkHome = name: home-manager.lib.homeManagerConfiguration {

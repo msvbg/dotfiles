@@ -11,7 +11,9 @@ let
 in
 {
   programs.vscode = {
-    inherit userSettings extensions keybindings;
+    profiles.default = {
+      inherit userSettings extensions keybindings;
+    };
     enable = true;
     mutableExtensionsDir = false;
     package = if pkgs.config.allowUnfreePredicate "vscode" then pkgs.vscode else pkgs.vscodium;

@@ -10,7 +10,7 @@ let
     };
 
     # Automatically deduplicate files
-    nix.settings.auto-optimise-store = true;
+    nix.settings.auto-optimise-store = false;
 
     # Link old commands (nix-shell, nix-build, etc.) to use the same nixpkgs as the flake.
     nix.nixPath = [ "nixpkgs=${nixpkgs}" ];

@@ -1,4 +1,5 @@
-{ config, pkgs, lib, self, ... }@inputs: {
+{ config, pkgs, lib, self, ... }@inputs:
+{
   home.stateVersion = "23.11";
 
   # Add each flake input to registry.
@@ -23,40 +24,40 @@
     update = "nix flake update --commit-lock-file";
   };
 
-  home.packages =
-    with pkgs; [
-      bash
-      bat
-      cmake
-      curl
-      difftastic
-      direnv
-      deno
-      dotnet-sdk_8
-      eza
-      fd
-      ffmpeg
-      git-lfs
-      home-manager
-      iterm2
-      jq
-      just
-      man
-      mcfly
-      neovim
-      nil
-      nixpkgs-fmt
-      pkg-config
-      pngcrush
-      ripgrep
-      rustup
-      starship
-      tmux
-      cloc
-      tracy
-      zellij
-      zola
-    ];
+  home.packages = with pkgs; [
+    bash
+    bat
+    cmake
+    curl
+    difftastic
+    direnv
+    deno
+    dotnet-sdk_8
+    eza
+    fd
+    ffmpeg
+    git-lfs
+    home-manager
+    iterm2
+    jq
+    just
+    man
+    mcfly
+    neovim
+    nil
+    nixpkgs-fmt
+    nodejs_22
+    pkg-config
+    pngcrush
+    ripgrep
+    rustup
+    starship
+    tmux
+    cloc
+    tracy
+    zellij
+    zola
+  ];
 
   programs = {
     gpg.enable = true;
