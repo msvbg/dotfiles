@@ -4,7 +4,10 @@
       "Bash(echo $SHELL)",
       "Bash(bindkey)",
       "Bash(grep:*)",
-      "Bash(env)"
+      "Bash(env)",
+      "Bash(nix why-depends:*)",
+      "Bash(switch-home:*)",
+      "Bash(nix eval:*)"
     ],
     "deny": []
   }
