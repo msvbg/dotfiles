@@ -7,7 +7,9 @@
       "Bash(env)",
       "Bash(nix why-depends:*)",
       "Bash(switch-home:*)",
-      "Bash(nix eval:*)"
+      "Bash(nix eval:*)",
+      "Bash(mkdir:*)",
+      "Bash(nix search:*)"
     ],
     "deny": []
   }

@@ -2,6 +2,8 @@
 {
   home.stateVersion = "23.11";
 
+  nixpkgs.config.allowBroken = true;
+
   # Add each flake input to registry.
   nix.registry = (lib.mapAttrs (_: flake: { inherit flake; })) ((lib.filterAttrs (_: lib.isType "flake")) inputs);
 
@@ -28,6 +30,7 @@
   home.packages = with pkgs; [
     bash
     bat
+    bun
     cmake
     codex-cli
     curl
