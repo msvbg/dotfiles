@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $SHELL)",
+      "Bash(bindkey)",
+      "Bash(grep:*)",
+      "Bash(env)"
+    ],
+    "deny": []
+  }
+}
