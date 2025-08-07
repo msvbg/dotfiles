@@ -21,6 +21,10 @@
       # vi keybindings
       zinit light jeffreytse/zsh-vi-mode
 
+      # Restore mcfly Ctrl+R binding after zsh-vi-mode loads
+      # zsh-vi-mode overrides keybindings, so we need to rebind mcfly
+      zvm_after_init_commands+=('eval "$(mcfly init zsh)"')
+
       # Preview directory's content with eza when completing cd
       zstyle ':completion:*:git-checkout:*' sort false
       zstyle ':fzf-tab:complete:cd:*' fzf-preview 'eza -1 --color=always $realpath'
