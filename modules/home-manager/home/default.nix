@@ -31,6 +31,7 @@
     bash
     bat
     bun
+    cloc
     cmake
     codex-cli
     curl
@@ -58,11 +59,10 @@
     rustup
     starship
     tmux
-    cloc
+    uv
     tracy
     zellij
     zola
-
   ];
 
   programs = {
