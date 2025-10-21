@@ -58,6 +58,7 @@
     ripgrep
     rustup
     starship
+    terminal-notifier
     tmux
     uv
     tracy
