@@ -55,6 +55,7 @@
     nodejs_22
     pkg-config
     pngcrush
+    pnpm
     ripgrep
     rustup
     starship
