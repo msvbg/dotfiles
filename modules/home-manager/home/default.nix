@@ -24,7 +24,6 @@
     edit-nix = "code ~/.config/nix";
     switch-home = "home-manager switch --flake ~/.config/nix";
     update = "nix flake update --commit-lock-file";
-    claude = "~/.claude/local/claude";
   };
 
   home.packages = with pkgs; [
@@ -33,7 +32,6 @@
     bun
     cloc
     cmake
-    codex-cli
     curl
     difftastic
     direnv

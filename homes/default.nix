@@ -7,7 +7,6 @@ let
       overlays = [
         self.overlays.vscode-unstable
         self.overlays.claude-code
-        self.overlays.codex
         self.overlays.fenix
       ];
     };

@@ -10,6 +10,7 @@
 
   home.username = "martin";
   home.homeDirectory = if pkgs.stdenv.hostPlatform.isDarwin then "/Users/martin" else "/home/martin";
+  home.sessionPath = [ "$HOME/.local/bin" ];
   programs.git.userName = "Martin Svanberg";
   programs.git.userEmail = "martin@martinsvanberg.com";
 }
