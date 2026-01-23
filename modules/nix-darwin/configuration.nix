@@ -66,6 +66,8 @@
 
   # https://medium.com/@zmre/nix-darwin-quick-tip-activate-your-preferences-f69942a93236
   system.activationScripts.postUserActivation.text = ''
+    # Screenshots go to clipboard instead of desktop
+    defaults write com.apple.screencapture target clipboard
     /System/Library/PrivateFrameworks/SystemAdministration.framework/Resources/activateSettings -u
   '';
 }
