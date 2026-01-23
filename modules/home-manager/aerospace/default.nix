@@ -57,6 +57,11 @@
     r = ['flatten-workspace-tree', 'mode main']
     f = ['layout floating tiling', 'mode main']
     backspace = ['close-all-windows-but-current', 'mode main']
+
+    # App-specific rules
+    [[on-window-detected]]
+    if.app-id = 'com.spotify.client'
+    run = 'move-node-to-workspace 9'
   '';
 
   launchd.agents.aerospace = {
