@@ -66,6 +66,14 @@
     [[on-window-detected]]
     if.app-name-regex-substring = 'hydronaut'
     run = ['layout floating']
+
+    [[on-window-detected]]
+    if.app-id = 'com.tinyspeck.slackmacgap'
+    run = 'move-node-to-workspace 8'
+
+    [[on-window-detected]]
+    if.app-id = 'com.google.Chrome'
+    run = 'move-node-to-workspace 7'
   '';
 
   launchd.agents.aerospace = {
