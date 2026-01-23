@@ -62,6 +62,10 @@
     [[on-window-detected]]
     if.app-id = 'com.spotify.client'
     run = 'move-node-to-workspace 9'
+
+    [[on-window-detected]]
+    if.app-name-regex-substring = 'hydronaut'
+    run = ['layout floating']
   '';
 
   launchd.agents.aerospace = {
