@@ -9,7 +9,10 @@
       "Bash(switch-home:*)",
       "Bash(nix eval:*)",
       "Bash(mkdir:*)",
-      "Bash(nix search:*)"
+      "Bash(nix search:*)",
+      "Bash(home-manager switch:*)",
+      "Bash(aerospace config:*)",
+      "Bash(aerospace reload-config:*)"
     ],
     "deny": []
   }
