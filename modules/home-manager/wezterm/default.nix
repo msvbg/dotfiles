@@ -12,6 +12,7 @@
 
       config.color_scheme = 'Black Metal (base16)'
       config.font_size = 14.0
+      config.mouse_wheel_scrolls_tabs = false
 
       config.keys = {
         {

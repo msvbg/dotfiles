@@ -54,6 +54,8 @@
     pkg-config
     pngcrush
     pnpm
+    postgresql
+    redis
     ripgrep
     rustup
     starship
