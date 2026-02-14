@@ -45,6 +45,7 @@
     iterm2
     jq
     just
+    luau-lsp
     man
     mcfly
     neovim
