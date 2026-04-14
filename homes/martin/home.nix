@@ -1,6 +1,5 @@
 { config, pkgs, lib, self, ... }: {
   imports = with self.homeModules; [
-    aerospace
     gh
     git
     jujutsu

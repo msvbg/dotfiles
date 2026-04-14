@@ -7,7 +7,7 @@
         email = "martin@martinsvanberg.com";
       };
       signing = {
-        sign-all = true;
+        behavior = "own";
         backend = "ssh";
         key = "~/.ssh/id_ed25519";
       };
