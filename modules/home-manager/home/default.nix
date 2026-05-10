@@ -30,6 +30,7 @@
     bash
     bat
     bun
+    clang
     cloc
     cmake
     curl
@@ -45,6 +46,7 @@
     iterm2
     jq
     just
+    llvm
     luau-lsp
     man
     mcfly

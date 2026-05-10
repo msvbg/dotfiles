@@ -12,7 +12,9 @@ let
       "vscode-extension-ms-vsliveshare-vsliveshare"
       "vscode-extension-ms-vscode-remote-remote-containers"
       "vscode-extension-supermaven-supermaven"
+      "vscode-extension-ms-dotnettools-csharp"
       "vscode-extension-ms-dotnettools-csdevkit"
+      "vscode-extension-ms-dotnettools-vscode-dotnet-runtime"
     ];
   };
 in

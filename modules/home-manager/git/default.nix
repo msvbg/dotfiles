@@ -13,7 +13,7 @@
     lfs = {
       enable = true;
     };
-    extraConfig = {
+    settings = {
       branch.sort = "-committerdate";
       core.editor = "vim";
       core.fsmonitor = true;

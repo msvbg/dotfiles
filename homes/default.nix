@@ -4,6 +4,15 @@ let
   mkHome = name: home-manager.lib.homeManagerConfiguration {
     pkgs = import nixpkgs {
       inherit system;
+      config = {
+        allowUnfreePredicate = pkg: builtins.elem (nixpkgs.lib.getName pkg) [
+          "vscode"
+          "vscode-extension-ms-dotnettools-csharp"
+          "vscode-extension-ms-dotnettools-csdevkit"
+          "vscode-extension-ms-dotnettools-vscode-dotnet-runtime"
+          "vscode-extension-supermaven-supermaven"
+        ];
+      };
       overlays = [
         self.overlays.vscode-unstable
         self.overlays.claude-code
@@ -12,7 +21,7 @@ let
     };
     modules = [
       ./${name}/home.nix
-      nix-index-database.hmModules.nix-index
+      nix-index-database.homeModules.nix-index
       self.homeModules.home
       self.homeModules.${system}
     ];

@@ -2,6 +2,10 @@
   nixpkgs.config = {
     allowUnfreePredicate = pkg: builtins.elem (lib.getName pkg) [
       "vscode"
+      "vscode-extension-ms-dotnettools-csharp"
+      "vscode-extension-ms-dotnettools-csdevkit"
+      "vscode-extension-ms-dotnettools-vscode-dotnet-runtime"
+      "vscode-extension-supermaven-supermaven"
     ];
   };
 

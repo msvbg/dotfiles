@@ -14,6 +14,6 @@
   home.sessionVariables = {
     STEAMCMD = "$HOME/SteamworksSDK/sdk/tools/ContentBuilder/builder_osx/steamcmd";
   };
-  programs.git.userName = "Martin Svanberg";
-  programs.git.userEmail = "martin@martinsvanberg.com";
+  programs.git.settings.user.name = "Martin Svanberg";
+  programs.git.settings.user.email = "martin@martinsvanberg.com";
 }
